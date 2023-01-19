@@ -15,9 +15,9 @@ elapsed = 0
 token_limit = 3600
 
 #URL for login and get API tokens
-url_login = "https://api.modulusone.com/login"
+url_login = ""
 #URL for API telemetry endpoint
-url_telemetry = "https://api.modulusone.com/live_telemetry"
+url_telemetry = ""
 
 #Get API tokens
 def GetAPI_Tokens():
