@@ -22,7 +22,7 @@ url_telemetry = "https://api.modulusone.com/live_telemetry"
 #Get API tokens
 def GetAPI_Tokens():
 
-    response_token = requests.post(url_login, json={'login':'modulus@randon.com.br', 'password':'nt1675'})
+    response_token = requests.post(url_login, json={'login':'', 'password':''})
 
     df_token = pd.DataFrame([response_token.json()])
     access_token = df_token['access_token']
